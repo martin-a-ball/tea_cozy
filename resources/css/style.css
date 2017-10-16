@@ -15,7 +15,8 @@ header {
   border-bottom: 1px solid seashell;
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
+  background-color: black;
 }
 
 .logo {
@@ -26,6 +27,9 @@ header {
   height: 50px;
 }
 
+nav {
+  margin-right: 10px;
+}
 nav span {
   text-decoration: underline;
   padding: 0px 10px;
@@ -34,9 +38,11 @@ nav span {
 .main {
   position: relative;
   top: 69px;
+  width: 1200px;
 }
 
-.mission {
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
   height: 700px;
 }
 
