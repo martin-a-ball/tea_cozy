@@ -6,3 +6,54 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav span {
+  text-decoration: underline;
+  padding: 0px 10px;
+}
+
+.main {
+  position: relative;
+  top: 69px;
+}
+
+.mission {
+  height: 700px;
+}
+
+.featured {
+
+}
+
+.locations {
+
+}
+
+.contact {
+
+}
+
+footer {
+  position: relative;
+  top: 69px;
+  text-align: left;
+}
