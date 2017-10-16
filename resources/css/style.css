@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin-top: 0px;
 }
 
 header {
@@ -38,12 +39,16 @@ nav span {
 .main {
   position: relative;
   top: 69px;
-  width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
+  width: 1200px;
 }
 
 .featured {
