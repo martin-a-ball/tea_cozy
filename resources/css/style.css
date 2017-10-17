@@ -58,8 +58,24 @@ nav span {
   background-color: black;
   width: 100%;
 }
-.featured {
+#featured {
+  width: 1000px;
+}
 
+.tea_image {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea_image img {
+  height: 200px;
+  width: 300px;
+  margin: 0 10px;
+}
+
+.tea_image h4 {
+  margin: 10px auto;
 }
 
 .locations {
