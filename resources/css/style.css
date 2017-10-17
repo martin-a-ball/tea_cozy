@@ -49,8 +49,15 @@ nav span {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.mission_text {
+  background-color: black;
+  width: 100%;
+}
 .featured {
 
 }

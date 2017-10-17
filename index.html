@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <!-- Tea Cozy Project to be submitted by Oct 21st -->
-  <!-- Create GitHub repository and commit at regular intervals -->
+  <!-- Tea Cozy Project to be submitted by Oct 21st                -->
+  <!-- Create GitHub repository and commit at regular intervals    -->
+  <!-- github repository https://martin-a-ball.github.io/tea_cozy/ -->
   <head>
     <meta charset="utf-8">
     <title>Tea Cozy</title>
@@ -9,32 +10,42 @@
   </head>
     <!-- common to all body elements, background color = black, color = seashell -->
     <!-- font family, font-size, opacity = 0.9, text is centered                 -->
-    <!-- Tea Cozy Page consists of header, footer and main section -->
-
+    <!-- Tea Cozy Page consists of header, footer and main section               -->
   <body>
     <!-- Header has image top left and 3 navigation links top right -->
     <!-- image and nav links wrap when browser shrinks              -->
     <!-- Header height is 69px and width = 100%.                    -->
-    <!-- Header is fixed and main web page scrolls behind           -->
+    <!-- Header is fixed and main web page scrolls behind it        -->
     <!-- 1px border on bottom                                       -->
+    <!-- use space-between to push logo left and navigation right   -->
+    <!-- tea cozy logo has a margin left of 10px and height 50px    -->
+    <!-- navigation has similar margin right and some padding       -->
     <header>
       <div class="logo">
         <img src="./resources/images/img-tea-cozy-logo.png" alt="tea cozy" />
       </div>
       <nav>
-          <span>Mission</span>
-          <span>Featured Tea</span>
-          <span>Locations</span>
+          <span><a href="#mission">Mission</a></span>
+          <span><a href="#featured">Featured Tea</a></span>
+          <span><a href="#locations">Locations</a></span>
       </nav>
     </header>
-    <!-- main section consists of 4 containers -->
-    <!-- main container is 1200px wide         -->
+    <!-- main section consists of 4 containers                          -->
+    <!-- main container is 100% wide, max width of divs are 1200px wide -->
+    <!-- use flex-direction: column; and align items center             -->
+    <!-- this will center all 4 divs                                    -->
+    <!-- main div moves down 69px to clear header which is fixed        -->
     <div class="main">
       <!-- mission container, background image with white text centered -->
-      <!-- height set at 700px                                          -->
+      <!-- mission div height set at 700px                              -->
+      <!-- text vertically aligned using its own div                    -->
+      <!-- align-items: center;                                         -->
+      <!-- text has black background to be seen infront of image        -->
       <div id="mission">
-        <h2>Our Mission</h2>
-        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+        <div class="mission_text">
+          <h2>Our Mission</h2>
+          <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+        </div>
       </div>
       <!-- featured tea container, 5 images                        -->
       <!-- container is 1000px wide and centered                   -->
