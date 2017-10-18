@@ -36,6 +36,10 @@ nav span {
   padding: 0px 10px;
 }
 
+nav span a {
+  color:inherit;
+}
+
 .main {
   position: relative;
   top: 69px;
